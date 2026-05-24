@@ -13,7 +13,7 @@ export default function Page() {
     {
       title: '📄 Curso de Currículo',
       desc: 'Aprenda currículo do básico ao avançado.',
-      image: '/cursos/curriculo.jpg',
+      image: '/curriculo/curso de curriculo.jpg',
 
       aulas: [
         {
@@ -61,7 +61,7 @@ export default function Page() {
     {
       title: '🎙️ Curso de Oratória',
       desc: 'Aprenda comunicação profissional.',
-      image: '/cursos/oratoria.jpg',
+      image: '/curriculo/ oratoria.jpg',
 
       aulas: [
         {
@@ -298,7 +298,12 @@ export default function Page() {
 
       {/* HERO */}
       <section className="px-6 py-28 text-center">
+      <img
+  src="/logo/logo.jpg"
 
+  alt="Logo"
+  className="w-40 mx-auto mb-6"
+/>
         <h1 className="text-7xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-8">
           VynkWorking
         </h1>
