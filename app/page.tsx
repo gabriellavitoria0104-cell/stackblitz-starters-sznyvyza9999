@@ -208,13 +208,6 @@ export default function Page() {
 
   const equipe = [
     {
-      name: 'Matheus',
-      role: 'Vice líder de representantes',
-      img: '/equipe/matheus.jpg',
-      msg: '“Evolução é consistência diária.”',
-    },
-
-    {
       name: 'Júlia',
       role: 'Diretora',
       img: '/equipe/julia.jpg',
