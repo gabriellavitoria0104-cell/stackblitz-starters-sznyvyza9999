@@ -640,7 +640,7 @@ Acreditamos no seu potencial e que, com dedicação e orientação, novas ser al
 
             <div className="space-y-10">
 
-            {selected?.aulas?.map((aula, index) => (
+            {selected?.aulas?.map((aula: any, index: number) => (
   <div
     key={index}
     className="bg-black/40 rounded-3xl p-6"
@@ -678,7 +678,7 @@ Acreditamos no seu potencial e que, com dedicação e orientação, novas ser al
   );
 }
 
-function Section({ titulo, items, setSelected }) {
+function Section({ titulo, items, setSelected }: { titulo: string; items: any[]; setSelected: (item: any) => void }) {
   return (
     <section className="px-6 mb-24">
 
